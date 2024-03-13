@@ -1,0 +1,127 @@
+/* variables */
+/*  to call variables : var(--name) */
+:root {
+    --oldpaper: #f6eee3;
+    --textcolor: black;
+    --headercolor: rgb(4, 4, 79);
+    --headerfountweigh: 900;
+    --headerfontfamily: 'Brush Script MT', monospace;
+    --header1size: 50px;
+    --header2size: 35px;
+    --header3size: 25px;
+    --header1wordspace: 8px;
+    --header2wordspace: 6px;
+    --header3wordspace: 5px;
+}
+/*general web setings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* classes  */
+.righttext {
+    text-align: right;
+}
+
+.marginright {
+    margin-right: 5ex;
+}
+
+.marginleft {
+    margin-left: 5ex;
+}
+
+.oldletertext {
+    background-color: var(--oldpaper);
+    color: var(--textcolor);
+    font-family: 'Courier New', monospace;
+}
+
+address {
+    font-size: 12px;
+}
+
+.textlineheigh {
+    line-height: 1.6;
+}
+
+.brunosquotes {
+    quotes: "|" "|";
+}
+
+.textsection {
+    width: 500px;
+    border: 1px solid black;
+    hyphens: auto
+}
+
+.textsection2 {
+    width: 100px;
+    border: 1px solid black;
+    hyphens: auto
+}
+
+.textsection3 {
+    width: 600px;
+    border: 1px solid black;
+    hyphens: auto;
+    word-wrap: break-word;
+}
+
+.underandoverline {
+    text-decoration: underline overline;
+}
+
+.superverticalalign {
+    vertical-align: text-top;
+}
+
+.verticaltext {
+    writing-mode: vertical-rl;
+    margin-left: 0ex;
+}
+/* main tags stile definition */
+h1 {
+    background-color: var(--oldpaper);
+    color: var(--headercolor);
+    font-family: var(--headerfontfamily);
+    font-size: var(--header1size);
+    font-weight: var(--headerfountweigh);
+    text-decoration: underline;
+    word-spacing: var(--header1wordspace);
+}
+
+h2 {
+    background-color: var(--oldpaper);
+    color: var(--headercolor);
+    font-family: var(--headerfontfamily);
+    font-size: var(--header2size);
+    font-weight: var(--headerfountweigh);
+    text-decoration: underline;
+    word-spacing: var(--header2wordspace);
+}
+
+h3 {
+    background-color: var(--oldpaper);
+    color: var(--headercolor);
+    font-family: var(--headerfontfamily);
+    font-size: var(--header3size);
+    font-weight: var(--headerfountweigh);
+    word-spacing: var(--header3wordspace);
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 5ex;
+    line-height: 1;
+}
+
+ol {
+    margin-left: 5ex;
+}
